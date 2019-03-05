@@ -34,7 +34,7 @@ nav a:hover.rightmove {
   background: none;
 }
 
-img {
-  height: 50%;
-  width: 50%;
+img.resize {
+  width: 30%;
+  height: 30%;
 }
