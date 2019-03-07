@@ -56,3 +56,8 @@ div .column{
   border: 1px solid black;
 
 }
+
+.left {
+  float: left;
+  padding: 0 10px 10px 0;
+}
