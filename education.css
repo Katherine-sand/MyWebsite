@@ -33,3 +33,8 @@ nav a:hover {
 nav a:hover.rightmove {
   background: none;
 }
+
+.left {
+  float: left;
+  padding: 0 10px 10px 0;
+}
