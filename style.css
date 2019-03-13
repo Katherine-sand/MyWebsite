@@ -10,6 +10,7 @@ nav {
   float: left;
   margin: 2%;
   border-radius: 25px;
+  border: 1px solid black;
 }
 
 nav a {
