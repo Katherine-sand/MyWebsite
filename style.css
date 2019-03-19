@@ -65,3 +65,8 @@ div .column{
 p {
   margin-left: 2em;
 }
+
+hr {
+  size: 5px;
+  color: black;
+}
