@@ -25,6 +25,7 @@ nav a:hover {
 
 .column {
   float: left;
+  padding-left: 5%;
   width: 40%;
 }
 
