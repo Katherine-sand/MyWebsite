@@ -26,7 +26,6 @@ nav a:hover {
 .column {
   float: left;
   padding-left: 5%;
-  padding-right: 5%;
   width: 40%;
 }
 
@@ -52,7 +51,7 @@ nav a:hover.rightmove {
 
 div .column{
   border: 1px solid gray;
-
+  padding: 5%;
 }
 
 .left {
