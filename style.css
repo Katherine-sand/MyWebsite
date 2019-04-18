@@ -1,9 +1,11 @@
 * {
   font-family: sans-serif;
   box-sizing: border-box;
-  background: #E3F2FD;
-  background-image: linear-gradient(to bottom right, #68b2f2, #c49eed);
+  /*background: #E3F2FD;*/
 
+}
+html{
+  background-image: linear-gradient(to bottom right, #68b2f2, #c49eed);
 }
 
 nav {
