@@ -8,8 +8,8 @@ html{
   background-image: linear-gradient(to bottom right, #68b2f2, #c49eed);
   background-repeat: no-repeat;
   margin: 0
-  height: 100%;
   background-color: #c49eed;
+  height: 100%;
 }
 
 nav {
