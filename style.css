@@ -6,6 +6,8 @@
 }
 html{
   background-image: linear-gradient(to bottom right, #68b2f2, #c49eed);
+  background-repeat: no-repeat;
+  
 }
 
 nav {
