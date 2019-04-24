@@ -36,20 +36,13 @@ nav a:hover {
   padding: 5px;
   justify-content: center;
   align-items: center;
+  flex-wrap: nowrap;
 }
 
-.flex-items{
+.flex-item{
   width: 40%;
   margin-top; 10px;
-
-}
-
-div .column{
-  border: 1px solid gray;
-}
-
-.left {
-  padding: 0 10px 10px 0;
+  border: solid black;
 }
 
 p {
