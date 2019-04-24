@@ -36,8 +36,7 @@ nav a:hover {
   padding: 5px;
   justify-content: center;
   align-items: center;
-  flex-wrap: nowrap;
-  flex-direction: row;
+  flex-flow: row; 
   flex-grow: 1;
   flex-basis: 90%;
 }
