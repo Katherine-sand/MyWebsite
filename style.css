@@ -38,6 +38,7 @@ nav a:hover {
   align-items: center;
   flex-wrap: nowrap;
   flex-direction: row;
+  flex-grow: 1;
 }
 
 .flex-item{
