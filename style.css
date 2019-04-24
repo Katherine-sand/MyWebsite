@@ -45,7 +45,6 @@ nav a:hover {
   display: -ms-flexbox;
   display: -webkit-flex;
   display: flex;
-
   -webkit-flex-flow: row wrap;
   justify-content: space-around;
 }
@@ -61,6 +60,7 @@ p {
   margin-left: 2em;
   font-size: 20px;
   max-width: 1000px;
+  text-align: center;
 }
 
 hr {
