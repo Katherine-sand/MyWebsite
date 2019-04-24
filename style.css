@@ -51,8 +51,7 @@ nav a:hover {
 
 .flex-item{
   width: 40%;
-  margin-top: 10px;
-  border: solid black;
+  margin: 10px;
   order: 1;
 }
 
