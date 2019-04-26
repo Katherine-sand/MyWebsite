@@ -1,3 +1,5 @@
+@import "compass/css3";
+
 * {
   font-family: sans-serif;
   box-sizing: border-box;
@@ -34,6 +36,7 @@ nav a {
   text-align: center;
   text-decoration: none;
   display: block;
+  justify-content: space-around;
 }
 
 nav a:hover {
