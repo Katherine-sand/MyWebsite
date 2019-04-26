@@ -28,6 +28,8 @@ nav {
   display: flex;
   -webkit-flex-flow: row wrap;
   justify-content: flex-end;
+
+  align-items: center;
 }
 
 nav a {
@@ -36,7 +38,9 @@ nav a {
   text-align: center;
   text-decoration: none;
   display: block;
-  justify-content: space-around;
+  justify-content: space-evenly;
+
+
 }
 
 nav p{
@@ -45,7 +49,7 @@ nav p{
   text-align: center;
   text-decoration: none;
   display: block;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 nav a:hover {
