@@ -39,6 +39,15 @@ nav a {
   justify-content: space-around;
 }
 
+nav p{
+  padding: 1% 1.5% 1% 1.5%;
+  color: black;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  justify-content: space-around;
+}
+
 nav a:hover {
   background: #808080;
 }
@@ -73,9 +82,11 @@ p {
 }
 
 hr {
-  size: 5px;
+  border: 5px;
   color: black;
+  border-radius: 5px;
 }
+
 .widthmax{
   width: 100%;
   height: auto;
