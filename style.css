@@ -27,6 +27,7 @@ nav {
   display: flex;
   -webkit-flex-flow: row wrap;
   justify-content: flex-end;
+  flex-direction: row;
 
   align-items: center;
   display: inline-block
