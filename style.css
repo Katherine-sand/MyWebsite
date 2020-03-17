@@ -3,16 +3,16 @@
 * {
   font-family: sans-serif;
   box-sizing: border-box;
-  /*background: #E3F2FD;*/
-
 }
+
 html{
-  background-image: linear-gradient(to bottom right, #68b2f2, #c49eed);
-  background-repeat: no-repeat;
-  margin: 0
-  background-color: #c49eed;
-  min-height: 100%;
+  background-color: #bebbc7;
   background-attachment: fixed;
+}
+
+body {
+  padding-left: 5%;
+  padding-right: 5%;
 }
 
 nav {
@@ -30,6 +30,9 @@ nav {
   flex-direction: row;
 
   align-items: center;
+
+  overflow: hidden; /* helps with overflow problem */
+  white-space: nowrap;
 }
 
 nav a {
@@ -46,8 +49,7 @@ nav p{
   padding: 1% 1.5% 1% 1.5%;
   color: black;
   text-align: center;
-  text-decoration: none;
-  display: block;
+  font-weight: bold;
   justify-content: space-evenly;
 }
 
@@ -55,31 +57,8 @@ nav a:hover {
   background: #808080;
 }
 
-.flex-container{
-  padding: 5px;
-  justify-content: center;
-  align-items: center;
-  flex-grow: 1;
-  flex-basis: 90%;
-  list-style: none;
-
-  display: -webkit-box;
-  display: -moz-box;
-  display: -ms-flexbox;
-  display: -webkit-flex;
-  display: flex;
-  -webkit-flex-flow: row wrap;
-  justify-content: space-around;
-}
-
-.flex-item{
-  width: 40%;
-  margin: 10px;
-  order: 1;
-}
-
 p {
-  margin-left: 2em;
+  margin-left: 1%;
   font-size: 20px;
   max-width: 1000px;
 }
@@ -90,7 +69,38 @@ hr {
   border-radius: 5px;
 }
 
-.widthmax{
-  width: 100%;
-  height: auto;
+img {
+  width: 30%;
+  height: 30%;
+}
+
+.info.p {
+  float: left;
+}
+
+.info img{
+  float: right;
+}
+
+.travel img{
+  float: right;
+}
+
+a {
+  padding: none;
+}
+
+.rightmove {
+  float: right;
+  padding-right: 1%;
+}
+
+.leftmove {
+  float: left;
+  padding-left: 1%;
+}
+
+.left {
+  height: 10%;
+  width: 10%;
 }
